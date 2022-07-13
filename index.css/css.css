@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#dropdown{
+    background-color: #2d3246 ;
+    color: #2d3246;
+}
+.animation{
+    height: 70vh;
+    background-size: cover;
+    background-image: url(../image/csm_t.lobenwein_alumni_workshop_2019-046_39a92a2bc9.jpg);
+    background-repeat: no-repeat;
+    transition: 5s;
+    background-position: center;
+overflow: hidden;
+
+    animation-name:animate ;
+    animation-duration: 50s ;
+    animation-direction: alternate-reverse ;
+    animation-fill-mode: forwards ;
+    animation-iteration-count: infinite ;
+    animation-play-state: ease-in ;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url(../image/APAC\ still.jpg);
+
+    }
+    20%{
+        background-image: url(../image/istockphoto-946972428-612x612.jpg);
+    }
+    40%{
+        background-image: url(../image/rtt.jpg);
+    }
+    60%{
+        background-image: url(../image/csm_t.lobenwein_alumni_workshop_2019-046_39a92a2bc9.jpg);
+    }
+80%{
+    background-image: url(../image/csm_t.lobenwein_alumni_workshop_2019-046_39a92a2bc9.jpg );
+}
+100%{
+    background-image: url(../image/hhjm.jpg);
+}
+}
+h2{
+    color: #072A6C;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+p{
+    color:blue ;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+section{
+    background-image: url(../image/schl.jpg);
+   overflow: hidden;
+    margin-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.overlay{
+    background-color:black ;
+  overflow: hidden;
+    opacity: 0.8;
+    
+}
+
+button {
+    background-color:white; 
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+   margin-bottom: 20px;
+   opacity: 0.4;
+   
+  }
+  #middle-layer{
+      background-color: gray;
+
+  margin-top: 80px;
+  overflow: hidden;
+  }
+ #img-parent{
+     background-color: #ecf1f5;
+ }
+ .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+  
+}
+footer{
+    background-color: #2d3246;
+    margin-top: 70px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+ .nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+   color: blue;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+} 
+.container-fluid{
+    background-color:blue ;
+}
+#nav{
+    color: #2d3246;
+    font-weight: bold;
+}

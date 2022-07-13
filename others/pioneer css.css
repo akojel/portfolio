@@ -1,0 +1,25 @@
+.card-text{
+    font-family:'Work Sans', sans-serif;
+    font-style: oblique;
+   
+    color:grey;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 110px;
+}
+
+marquee{
+    background-color:#990011FF;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+h5{
+    color: white;
+  font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+}
